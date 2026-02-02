@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Model cache (Transformers / Torch)
+.cache/
+torch_cache/
+huggingface/
+
+# Uploaded files
+uploads/
+temp/
+
+# Node / frontend (if added later)
+node_modules/
+
+# Build files
+dist/
+build/
